@@ -2,7 +2,7 @@
 
 .body {
   background-color: #f8f8f8;
-  color: #333;
+  color:#333;
   font-family: lato, sans-serif;
 }
 
@@ -21,7 +21,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header { text-align: center;
   }
@@ -45,22 +45,22 @@
 }
 
 .tasks-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .list-item, .tasks-title {
-  list-style:none;
+  list-style: none;
 }
 
 .task-input,.button{
-  outline:none;
+  outline: none;
 }
 
 .button {
   background: none;
   border: 0px;
-  color: #888;
+  color:#888;
   font-size: 15px;
   width: 60px;
   font-family: lato, sans-serif;
@@ -68,14 +68,14 @@
 }
 
 .button:hover {
-  color: #3a3a3a;
+  color:#3a3a3a;
 }
 
 /* Heading */
 
 .tasks-title,
 .new-task-label {
-  color: #333;
+  color:#333;
   font-weight: 700;
   font-size: 15px;
   border-bottom: 2px solid #333;
@@ -94,11 +94,11 @@
   background: #fff;
   border-radius: 6px;
   font-family: lato, sans-serif;
-  color: #888;
+  color:#888;
 }
 
 .task-input-text:focus:focus {
-  color: #333;
+  color:#333;
 }
 
 /* New Task */
@@ -165,14 +165,14 @@
 /* Edit Task */
 
 .tasks-list .task-input-text {
-  display:none
+  display: none
 }
 
 .edit-mode .task-input-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .task-label {
-  display:none;
+  display: none;
 }
